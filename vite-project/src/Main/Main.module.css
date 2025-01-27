@@ -179,3 +179,9 @@ h1{
 .ButtonSection {
     margin: 20px 6% 20px 5%;
 }
+
+@media (max-width: 720px) {
+    .ButtonSection {
+        margin: 20px 5px 20px 5px;
+    }
+}
