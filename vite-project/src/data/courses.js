@@ -381,7 +381,7 @@ grid-area — позволяет элементам занимать неско�
 </head>
 <body>
   <div class="container" style='display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; background-color: lightgray;'>
-    <div class="item item-large" style='grid-column: 1 / 3;'>Элемент 1 (большой)</div>
+    <div class="item item-large" style='grid-column: 1 / 3; padding: 10px'>Элемент 1 (большой)</div>
     <div class="item" style='background-color: coral; padding: 10px; border: 2px solid black;'>Элемент 2</div>
     <div class="item" style='background-color: coral; padding: 10px; border: 2px solid black;'>Элемент 3</div>
     <div class="item" style='background-color: coral; padding: 10px; border: 2px solid black;'>Элемент 4</div>
