@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.back_button {
+  padding: 15px 30px;
+  background: #B9FF66;
+  margin-bottom: 1.5rem;
+  font-size: 25px;
+  font-family: 'Space Grotesk';
+  display: flex;
+  align-items: center;
+  color: black;
+  transition: color 0.2s;
+  border: 1px solid black;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.back_button:hover {
+  background-color: #b5dad5;
+}
+
+.back_button_icon { 
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
