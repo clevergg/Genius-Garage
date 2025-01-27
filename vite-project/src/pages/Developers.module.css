@@ -47,6 +47,7 @@ main {
   background: #B9FF66;
   border: 1px solid black;
   margin: 0 0 15px 10px;
+  color: black;
 }
 
 .li:visited {

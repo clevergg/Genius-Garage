@@ -63,6 +63,7 @@
     border-radius: 10px;
     border: 1px solid black;
     min-width: 150px;
+    color: black;
 }
 
 @media (max-width: 1077px) {
