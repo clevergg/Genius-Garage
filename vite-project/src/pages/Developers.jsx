@@ -40,7 +40,7 @@ const Developers = () => {
                     <button className={styles.git_button} onClick={() => window.open('https://github.com/ierumi', '_blank')}><Github/></button>
                 </div>
             <hr></hr>
-            <span className={styles.spanText}>Написал хуевый футер</span>
+            <span className={styles.spanText}>Только в сентябре я познакомился с версткой в первый раз, и уже в январе я решился поучаствовать в конкурсе "OpenHackaton" и разработать сайт вместе со своей командой. В этом конкурсе я увидел вызов для себя изучить что-то новое, и я был не в праве отказаться</span>
         </div>
 
        </div>
