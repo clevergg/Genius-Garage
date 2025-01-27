@@ -190,6 +190,15 @@
     .text__main {
         max-width: 270px;
     }
+    .card {
+        max-width: 360px;
+    }
+    .card__black {
+        max-width: 360px;
+    }
+    .card__green {
+        max-width: 360px;
+    }
 }
 
 

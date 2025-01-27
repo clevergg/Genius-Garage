@@ -83,6 +83,7 @@
 .content-body {
   white-space: pre-wrap;
   font-family: system-ui, -apple-system, sans-serif;
+  padding: 10px 0 0 0;
 }
 
 .content-link {

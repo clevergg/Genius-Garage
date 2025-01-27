@@ -149,3 +149,9 @@ h4 {
     gap: 10px;
   }
 }
+
+@media (max-width: 720px) {
+    .git_button {
+      padding-top: 5px;
+    }
+}
