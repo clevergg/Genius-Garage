@@ -30,7 +30,7 @@ const Developers = () => {
                     <button className={styles.git_button} onClick={() => window.open('https://github.com/ReeneQo', '_blank')}><Github/></button>
                 </div>
             <hr></hr>
-            <span className={styles.spanText}></span>
+            <span className={styles.spanText}>Мне 17 лет и я студент второго курса Хекслет. Мое знакомство с программированием началось в 2021 году когда я пошел на курсы по python, и затем в 2023 году я пришел в хекслет колледж на 1 курс и там началась история моего полноценного развития в программировании, и сейчас на hakatoon я хочу применить все навыки которые изучил.</span>
        </div>
        
        <div className={styles.card_main}>
