@@ -3,6 +3,9 @@
 .content-container {
   max-width: 64rem;
   margin: 0 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
 }
 
 .search-container {
@@ -11,6 +14,9 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
 }
 
 .search-input-wrapper {
@@ -35,6 +41,7 @@
   outline: none;
   transition: all 0.2s;
 }
+
 @media (max-width: 720px) {
   .search-input {
     width: 290px;
@@ -74,6 +81,7 @@
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 0 10px ;
+  
 }
 
 .content-text {
@@ -131,4 +139,15 @@
 
 .container {
   margin-bottom: 175px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
