@@ -11,7 +11,6 @@ export const extractHeadings = (content) => {
 export const renderContent = (content) => {
   let processedContent = content;
   
-  // Process headings with IDs
   const headings = extractHeadings(content);
   headings.forEach(heading => {
     const id = heading.text.replace(/\s+/g, '-').toLowerCase();
@@ -22,7 +21,6 @@ export const renderContent = (content) => {
     );
   });
 
-  // Process code blocks with HTML
   processedContent = processedContent.replace(
     /```html([\s\S]*?)```/g,
     (_, code) => `<pre class="code-block html"><code>${
@@ -32,19 +30,16 @@ export const renderContent = (content) => {
     }</code></pre>`
   );
 
-  // Process other code blocks
   processedContent = processedContent.replace(
     /```(\w+)?([\s\S]*?)```/g,
     (_, lang, code) => `<pre class="code-block ${lang || ''}"><code>${code.trim()}</code></pre>`
   );
 
-  // Process inline code
   processedContent = processedContent.replace(
     /`([^`]+)`/g,
     '<code class="inline-code">$1</code>'
   );
 
-  // Process links [text](url)
   processedContent = processedContent.replace(
     /\[([^\]]+)\]\(([^)]+)\)/g,
     '<a href="$2" target="_blank" rel="noopener noreferrer" class="content-link">$1</a>'
